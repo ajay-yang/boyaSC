@@ -1,0 +1,211 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>博雅互动</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<link rel="stylesheet" href="css/swiper.min.css" />
+</head>
+<body>
+	<div class="top">
+		<div class="wrap">
+			<div class="logo"></div>
+			<ul>
+				<li class="fir">
+					<a href="#">首页</a>
+				</li>
+				<li>
+					<a href="#">博雅游戏</a>
+				</li>
+				<li>
+					<a href="#">博雅新闻</a>
+				</li>
+				<li>
+					<a href="#">关于我们</a>
+				</li>
+				<li>
+					<a href="#">客服中心</a>
+				</li>
+				<li class="las">
+					<a href="#">投资者关系</a>
+				</li>
+			</ul>
+			<div class="jrwm">
+				<img src="images/jrwm.png" />
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!--轮播图-->
+	<!--<div class="banner">
+		<div class="dian">
+			<ol>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ol>
+		</div>
+	</div>-->
+	<div class="swiper-container">
+	  	<div class="swiper-wrapper">
+		    <div class="swiper-slide ">
+		    	<img src="images/banner.jpg" alt="" />	
+		    </div>
+		    <div class="swiper-slide ">
+		    	<img src="images/banner.jpg" alt=""/>
+		    </div>
+		    <div class="swiper-slide ">
+		    	<img src="images/banner.jpg" alt=""/>	
+		    </div>
+	  	</div>
+	  	<!--分页-->
+	  	<div class="swiper-pagination swiper-pagination-white"></div>
+	  	<!--前后按钮-->
+	  	<div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+	</div>
+	<script src='js/jquery-1.8.3.min.js'></script>
+	<script src="js/swiper.min.js"></script>
+	<script>
+		var mySwiper = new Swiper('.swiper-container',{
+			    loop: true,//---循环播放
+				autoplay: 1000,//---动画间隔时间
+				autoplayDisableOnInteraction : false,
+				speed:1000,//---动画运动速度
+				pagination: '.swiper-pagination',//---显示分页
+			    paginationClickable: true,//---分页可以点击触发
+		        nextButton: '.swiper-button-next',//---前按钮
+		        prevButton: '.swiper-button-prev'//---后按钮		        
+		 	});  
+	</script>
+	<div class="content">
+		<!--博雅游戏-->
+		<div class="bygame">
+			<div class="dian2">
+				<ol>
+					<li class='fir'></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ol>
+			</div>
+			
+			<ul>
+				<li>
+					<img src="images/pro1.jpg" />
+					<h3>BPT宣传片</h3>
+					<p>
+						<a href="#">点击播放</a>
+					</p>
+					<!-- 		<img src="images/sanjiaoxing.png" alt="" />
+					-->
+				</li>
+				<li>
+					<img src="images/pro2.jpg" />
+					<h3>博雅互动宣传视频</h3>
+					<p>
+						<a href="#">点击播放</a>
+					</p>
+				</li>
+				<li>
+					<img src="images/pro3.jpg" />
+					<h3>斗地主</h3>
+					<p>
+						<a href="#">LANDLORDS</a>
+					</p>
+				</li>
+				<li class="you">
+					<img src="images/pro4.jpg" />
+					<h3>德州扑克</h3>
+					<p>
+						<a href="#">TEXAS HOLD'EM POKER</a>
+					</p>
+				</li>
+
+			</ul>
+		</div>
+		
+		<!--博雅新闻--招聘-->
+		<div class="bynewZhao">
+			<div class="xinwen">
+				<p class="more">
+					<a href="#">
+						<img src="images/more1.png" alt="" />
+					</a>
+				</p>
+				
+				<ul>
+					<li>
+						<span class="time">09/28</span>
+						<a href="#">2015博雅国际扑克大赛（BPT）在澳门落幕</a>
+					</li>
+					<li>
+						<span class="time">08/26</span>
+						<a href="#">2015 BPT博雅国际扑克大赛重磅来袭</a>
+					</li>
+					<li>
+						<span class="time">08/01</span>
+						<a href="#">博雅互动与阿里游戏联手启动“淘宝杯首届电视棋牌大赛”</a>
+					</li>
+					<li>
+						<span class="time">07/21</span>
+						<a href="#">湖南省省长杜家毫一行参观博雅互动</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="zhao">
+				<div class="tou">
+					<h2>专场招聘</h2>
+					<p>BOYAA JOBS</p>
+				</div>
+				<p class="more">
+					<a href="#">
+						<img src="images/more2.png" alt="" />
+					</a>
+				</p>
+				<div class="zpgw">
+					<h3>专场招聘岗位：</h3>
+					<ul>
+						<li>
+							<a href="#">PHP开发工程师</a>
+						</li>
+						<li>
+							<a href="#">C++开发工程师</a>
+						</li>
+						<li>
+							<a href="#">WEB前端开发工程师</a>
+						</li>
+						<li>
+							<a href="#">大数据开发工程师</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="footerIn">
+				<div class="inLeft">
+					<a href="#">网站地图</a>
+					<span> | </span>
+					<a href="#">免责声明</a>
+				</div>
+				
+				<div class="inRight">
+					<span>Copyright © 2004 - 2014 博雅互动(Boyaa Interactive) 粤ICP备05062536号 增值电信业务经营许可证：粤B2-20110513</span>
+				</div>
+		</div>
+	</div>
+	
+	
+	<div class="toTop">
+		<img src="images/top.png" alt="" />
+		<a href="#">TOP</a> 
+	</div>
+</body>
+</html>
